@@ -1,0 +1,473 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.shadow-md {
+    --tw-shadow: 0 0px 0px 0px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1) !important;
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #100), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .loginResponsive {
+        margin-left: 10%;
+    }
+
+    .loginResponsive .loginHead {
+        text-align: start !important;
+        margin-left: 80% !important;
+    }
+
+    .signature {
+        margin-left: 3% !important;
+        /* margin-right: 40%; */
+        /* right: 0%; */
+        width: 100%;
+    }
+
+    .signaturecanvas {
+
+        width: 100% !important;
+        height: 80px;
+    }
+
+    .inputwidth {
+        width: 110% !important;
+    }
+
+    .clearbtn {
+        margin-left: 30px !important;
+        width: 80px;
+        text-transform: capitalize;
+    }
+
+    .getbtn {
+        margin-left: 20px !important;
+        width: 80px;
+        text-transform: capitalize;
+    }
+
+    .Declaration {
+        margin-left: 10px !important;
+        width: 100% !important;
+
+
+    }
+
+    .dashboardJobSafety {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .dashboardHazard {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .dashboardHazard .inputdashboardhazard {
+        width: 120px !important;
+
+    }
+
+  
+
+    .dashboardHazard .inputdashboardhazardAlign {
+        display: block;
+        margin-top: -10%;
+        margin-left: -20% !important;
+        margin-right: 30%
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .loginResponsive {
+        margin-left: 22%;
+    }
+
+    .loginResponsive .loginHead {
+        text-align: start !important;
+        margin-left: 78% !important;
+    }
+
+    .signature {
+        margin-left: 10% !important;
+        /* margin-right: 40%; */
+        /* right: 0%; */
+        width: 100%;
+    }
+
+    .signaturecanvas {
+
+        width: 100% !important;
+        height: 100px;
+    }
+
+    .inputwidth {
+        width: 90% !important;
+    }
+
+    .clearbtn {
+        margin-left: 30px !important;
+        width: 80px;
+        text-transform: capitalize;
+    }
+
+    .getbtn {
+        margin-left: 20px !important;
+        width: 80px;
+        text-transform: capitalize;
+    }
+
+    .Declaration {
+        margin-left: 10px !important;
+        width: 100% !important;
+
+
+    }
+
+    .dashboardJobSafety {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .dashboardHazard {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .loginResponsive {
+        margin-left: 28%;
+    }
+
+    .loginResponsive .loginHead {
+        text-align: start !important;
+        margin-left: 72% !important;
+    }
+
+    .hazardResponsive {
+        width: 90%;
+        margin-left: 8%;
+    }
+
+    .signature {
+        margin-left: 20% !important;
+        /* margin-right: 40%; */
+        /* right: 0%; */
+        width: 100%;
+    }
+
+    .signaturecanvas {
+
+        width: 100% !important;
+        height: 100px;
+    }
+
+    .inputwidth {
+        width: 90% !important;
+    }
+
+    .clearbtn {
+        margin-left: 30px !important;
+        width: 120px;
+        text-transform: capitalize;
+    }
+
+    .getbtn {
+        margin-left: 20px !important;
+        width: 120px;
+        text-transform: capitalize;
+    }
+
+    .Declaration {
+        margin-left: 10px !important;
+        width: 100% !important;
+
+
+    }
+
+    .dashboardJobSafety {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .dashboardHazard {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1401px) {
+    .loginResponsive {
+        margin-left: 30%;
+    }
+
+    .loginResponsive .loginHead {
+        text-align: start !important;
+        margin-left: 48% !important;
+    }
+
+    .jobsafetyResponsive {
+        width: 50% !important;
+        margin-left: 25%;
+    }
+
+    .hazardResponsive {
+        width: 70%;
+        margin-left: 16%;
+    }
+
+
+    .signature {
+        margin-left: 20% !important;
+        /* margin-right: 40%; */
+        /* right: 0%; */
+        width: 100%;
+    }
+
+    .signaturecanvas {
+
+        width: 100% !important;
+        height: 100px;
+    }
+
+    .inputwidth {
+        width: 90% !important;
+    }
+
+    .clearbtn {
+        margin-left: 30px !important;
+        width: 120px;
+        text-transform: capitalize;
+    }
+
+    .getbtn {
+        margin-left: 20px !important;
+        width: 120px;
+        text-transform: capitalize;
+    }
+
+    .Declaration_list {
+        margin-left: 30% !important;
+        width: 50% !important;
+
+
+    }
+
+    .dashboardJobSafety {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .dashboardHazard {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media (min-width: 1402px) and (max-width: 1566px) {
+    .loginResponsive {
+        margin-left: 30%;
+    }
+
+    .loginResponsive .loginHead {
+        text-align: start !important;
+        margin-left: 40% !important;
+    }
+
+    .jobsafetyResponsive {
+        width: 50% !important;
+        margin-left: 25%;
+    }
+
+    .hazardResponsive {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .signature {
+        margin-left: 20% !important;
+        /* margin-right: 40%; */
+        /* right: 0%; */
+        width: 100%;
+    }
+
+    .signaturecanvas {
+
+        width: 100% !important;
+        height: 100px;
+    }
+
+    .inputwidth {
+        width: 90% !important;
+    }
+
+    .clearbtn {
+        margin-left: 30px !important;
+        width: 120px;
+        text-transform: capitalize;
+    }
+
+    .getbtn {
+        margin-left: 20px !important;
+        width: 120px;
+        text-transform: capitalize;
+    }
+
+    .Declaration_list {
+        margin-left: 30% !important;
+        width: 50% !important;
+
+
+    }
+
+    .dashboardJobSafety {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .dashboardHazard {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media (min-width: 1567px) and (max-width: 1701px) {
+    .loginResponsive {
+        margin-left: 30%;
+    }
+
+    .loginResponsive .loginHead {
+        text-align: start !important;
+        margin-left: 40% !important;
+    }
+
+    .jobsafetyResponsive {
+        width: 50% !important;
+        margin-left: 25%;
+    }
+
+    .hazardResponsive {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .Declaration_list {
+        margin-left: 30% !important;
+        width: 50% !important;
+
+
+    }
+
+    .signature {
+        margin-left: 20% !important;
+        /* margin-right: 40%; */
+        /* right: 0%; */
+        width: 100%;
+    }
+
+    .signaturecanvas {
+
+        width: 100% !important;
+        height: 100px;
+    }
+
+    .inputwidth {
+        width: 90% !important;
+    }
+
+    .clearbtn {
+        margin-left: 30px !important;
+        width: 120px;
+        text-transform: capitalize;
+    }
+
+    .getbtn {
+        margin-left: 20px !important;
+        width: 120px;
+        text-transform: capitalize;
+    }
+
+    .dashboardJobSafety {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .dashboardHazard {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+
+@media (min-width: 1702px) and (max-width: 1920px) {
+    .loginResponsive {
+        margin-left: 30%;
+    }
+
+    .loginResponsive .loginHead {
+        text-align: start !important;
+        margin-left: 40% !important;
+    }
+
+    .jobsafetyResponsive {
+        width: 50% !important;
+        margin-left: 25%;
+    }
+
+    .hazardResponsive {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .signature {
+        margin-left: 20% !important;
+        /* margin-right: 40%; */
+        /* right: 0%; */
+        width: 100%;
+    }
+
+    .signaturecanvas {
+
+        width: 100% !important;
+        height: 100px;
+    }
+
+    .inputwidth {
+        width: 90% !important;
+    }
+
+    .clearbtn {
+        margin-left: 30px !important;
+        width: 120px;
+        text-transform: capitalize;
+    }
+
+    .getbtn {
+        margin-left: 20px !important;
+        width: 120px;
+        text-transform: capitalize;
+    }
+
+    .Declaration_list {
+        margin-left: 30% !important;
+        width: 50% !important;
+
+
+    }
+
+    .dashboardJobSafety {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .dashboardHazard {
+        width: 50%;
+        margin-left: 25%;
+    }
+}

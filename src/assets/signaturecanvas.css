@@ -1,0 +1,14 @@
+.signaturecanvas{
+border: rgba(128, 128, 128, 0.808) solid 1px;
+border-radius: 5px;
+max-width: 80%;
+height: 40%;
+}
+
+.inputwidth{
+    width: 100%;
+}
+.signature{
+    margin-left: 30% ;
+    width: 60% ;
+}

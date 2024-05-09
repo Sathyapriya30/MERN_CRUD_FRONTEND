@@ -1,0 +1,12 @@
+.dashboard_width{
+width: 40%;
+}
+
+
+.dashhazard input[type=file] {
+    border: rgba(128, 128, 128, 0.808) solid 1px;
+    color: rgba(128, 128, 128, 0.808);
+    padding: 8px;
+    border-radius: 5px;
+    text-transform: lowercase;
+  }

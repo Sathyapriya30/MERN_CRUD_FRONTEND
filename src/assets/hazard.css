@@ -1,0 +1,38 @@
+.hazard ul.list-inside li {
+    display: inline-block;
+    margin-right: 10px; 
+  }
+
+  .hazardLogo{
+
+    right: 10px;
+    height: 40px;
+    margin-left: 30px;
+ 
+  }
+
+
+  .hazardLayout{
+    margin-left: 50%;
+      width: 49%;
+      display: block;
+    
+  }
+
+  .Declaration{
+    /* margin-left: 35% ; */
+ 
+  }
+
+  .Visitordetails{
+    width: 100% !important;
+  }
+
+
+  .ui table{
+    width: 250px !important;
+  }
+
+  .hazardDistance{
+    width: 300px;
+  }
